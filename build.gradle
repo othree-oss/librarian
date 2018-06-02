@@ -1,0 +1,27 @@
+plugins {
+    id "com.adtran.scala-multiversion-plugin" version "1.0.30"
+}
+
+apply plugin: 'scala'
+apply plugin: 'maven'
+apply plugin: 'signing'
+
+group='io.othree'
+archivesBaseName='librarian'
+version = '1.0'
+
+apply from: 'publish.gradle'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.scala-lang:scala-library:%scala-version%"
+    compile "io.othree:dna_%%:1.+"
+    compile "com.typesafe.slick:slick_%%:3.2.+"
+    compile "com.typesafe.scala-logging:scala-logging_%%:3.9.+"
+
+    testCompile "io.othree:a-ok_%%:1.+"
+    testCompile "com.h2database:h2:1.4.+"
+}

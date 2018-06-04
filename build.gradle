@@ -8,7 +8,7 @@ apply plugin: 'signing'
 
 group='io.othree'
 archivesBaseName='librarian'
-version = '1.0'
+version = '1.0.1'
 
 apply from: 'publish.gradle'
 

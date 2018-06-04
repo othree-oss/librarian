@@ -12,7 +12,7 @@ deploy:
     -Psigning.password=${SIGNING_PASSWORD} -Psigning.keyId=${SIGNING_KEY_ID}"
   skip_cleanup: true
   on:
-    branch: 1.0
+    branch: 1.0.1
 env:
   global:
   - secure: CRL5yfsSyMAKJiw6WIpIuJ1uqFz6Z8O6AxdaE1etfTBPM7FDV0qhA9B0Db+/SeYXB+fObgJn+6wUHyzP6M5vZq2kcBJruZjD3JOwtZR1PVPgsobFI5Mjz95wimbRnwcGXEXVH5DeBjZJr/IKPoB1kTw/wPFNcoHJGhPLjyWtVVGNAV2kp7AMqqB3zYXMVdUTqlHZtt9nkwhvGzsZW4Hm//dAFwAqQFelDF3RMefgmfCRD10GuiJvq+ti5ArztH83c5BsXYXfnYjuLCf6Vi3xxRdlEyNKP/8whc82k0UjRawcYne4eBsfCEyQeBp1ql8nufoVatQdrkA2f050I4wx/p+ppKqPe6k8eEJVEv8Ckxcu4iU5xtzpBgfXdABh6bu40F/SsVfj7QPVaWU+HsvecAgq/GQYWf5/XUCiBkm2xuB6NdsWyQ0Ankea5QBwgBybCmxWWB103tsh0aFGIlUGaTTniO07tFJPkJeeJvF3finEAWkhjzqEOwKJk4tSc2BzLA75J8x2POf4VNIrfDCilDo8NvuwhwWOaWsz1GqInMwfvEr8f65GliHe10X2efNx0QJJy82K4dFwKbcvHlZh3Az+9Ss+Cr8Q3o4n3qnksmM+/f8Ojzu4YxcOJT2dnamfhZU2KQEELkEZOv0nGyqHwel/DBmeiFFCQ3CE/4NDXMo=

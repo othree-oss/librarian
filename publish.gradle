@@ -37,7 +37,7 @@ if (isDeployable) {
                 pom.project {
                     name 'librarian'
                     packaging 'jar'
-                    description 'Some akka test utility classes'
+                    description 'Repository pattern for slick'
                     url 'https://github.com/othree-oss/librarian'
 
                     scm {
